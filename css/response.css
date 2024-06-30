@@ -1,0 +1,163 @@
+@media (max-width: 1120px) {
+	header nav ul {
+		gap: 15px;
+	}
+}
+@media screen and (max-width: 768px) {
+	header nav ul {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		padding: 35px 25px;
+		top: -1240%;
+		left: 0;
+		width: 100%;
+		height: auto;
+		background-color: #130324;
+		transition: 0.5s all linear;
+	}
+	header.active {
+		background-color: #130324;
+	}
+	header.active ul {
+		top: 100%;
+	}
+	header nav ul li {
+		margin: 0 0 20px 0;
+		font-size: 25px;
+		line-height: 35px;
+	}
+	header nav ul li:last-child {
+		margin: 0;
+	}
+	header aside:first-child {
+		width: 80%;
+		justify-content: flex-start;
+		padding: 16px;
+	}
+	header aside:last-child {
+		display: flex;
+		padding: 0;
+		justify-content: center;
+		align-items: center;
+		width: 70px;
+		height: 70px;
+		padding: 15px;
+	}
+	header.active nav .burger {
+		background: url('/images/close.webp') center / cover no-repeat;
+	}
+	header nav .burger {
+		display: block;
+		width: 40px;
+		height: 40px;
+		background: url('/images/burger.webp') center / contain no-repeat;
+		transition: 0.5s all linear;
+	}
+	.intro {
+		margin: 110px 0 0 0;
+		border-radius: 39px;
+	}
+	.intro h1 {
+		font-size: 50px;
+	}
+	.intro h1 span {
+		font-size: 60px;
+	}
+	.content h2 {
+		font-size: 30px;
+	}
+	.content h3 {
+		font-size: 22px;
+	}
+	.container .row {
+		margin: 0 auto;
+		width: 80%;
+	}
+	footer .logo {
+		margin: 0 0 20px 0;
+		display: block;
+		height: 45px;
+		width: auto;
+		align-self: center;
+	}
+	.content img {
+		margin: 0 0 20px 0;
+	}
+	footer .logo,
+	footer .logo p {
+		height: 40px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	header .logo,
+	header .logo p {
+		height: 38px;
+		width: auto;
+	}
+	.intro {
+		/*padding: 125px 0 40px 0;*/
+		padding: 38px 0 35px 0;
+	}
+	.intro h1 {
+		margin: 0 0 21px 0;
+		font-size: 24px;
+		line-height: 87.02%;
+	}
+	.intro h1 span {
+		font-size: 48px;
+		line-height: 127.02%;
+	}
+	.intro p {
+		margin: 0 0 21px 0;
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.intro .button {
+		padding: 11px 45px;
+		border-radius: 14px;
+	}
+	.intro .button span {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	header nav ul li {
+		font-size: 12px;
+		line-height: 170.02%;
+	}
+	.content {
+		padding: 53px 0 250px 0;
+	}
+	.content h2 {
+		font-size: 24px;
+	}
+	.content h3 {
+		font-size: 19px;
+	}
+	.content p,
+	.content td,
+	.content ol li,
+	.content ul li {
+		font-size: 12px;
+		line-height: 170.02%;
+	}
+	.container .row {
+		width: 100%;
+	}
+	footer .logo {
+		margin: 0 0 20px 0;
+	}
+
+	footer .logo,
+	footer .logo p {
+		height: 40px;
+	}
+	footer ul li {
+		font-size: 14px;
+		line-height: 170.02%;
+	}
+	table {
+		overflow: auto;
+	}
+}
