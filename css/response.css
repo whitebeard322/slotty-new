@@ -45,13 +45,13 @@
 		padding: 15px;
 	}
 	header.active nav .burger {
-		background: url('/blob/main/images/close.webp') center / cover no-repeat;
+		background: url('/blob/main/images/close.jpg') center / cover no-repeat;
 	}
 	header nav .burger {
 		display: block;
 		width: 40px;
 		height: 40px;
-		background: url('/blob/main/images/burger.webp') center / contain no-repeat;
+		background: url('/blob/main/images/burger.jpg') center / contain no-repeat;
 		transition: 0.5s all linear;
 	}
 	.intro {
