@@ -91,7 +91,7 @@ footer .logo {
 	padding: 108px 0 78px 0;
 	width: 100%;
 	height: auto;
-	background: url('/images/background.webp') center / cover no-repeat;
+	background: url('./images/background.webp') center / cover no-repeat;
 	border-radius: 71px;
 }
 .container {
